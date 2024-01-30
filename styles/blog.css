@@ -1,0 +1,15 @@
+.elit{
+    border: 4px solid yellowgreen ;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+}
+.header{
+    height: 300px;
+    /* background-image: url('sohel.jpg.jpg'); */
+    background-image: url(../images.jfif);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: contain;
+    
+}

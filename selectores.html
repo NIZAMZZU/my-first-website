@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors </title>
+    <style>
+        *{
+            margin:0;
+        }
+        p{
+            color: red;
+        }
+    #third{
+        font-size: 16px;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .bold{
+        font-weight:800 ;
+    }
+    input[type="password"]{
+        color: blueviolet;
+    }
+    .csc{
+        color: rgb(12, 22, 2);
+    }
+    .blog{
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+    <h3>Explore Mixed Selectors</h3>
+    <p class="yellow">My <span class="csc">first line</span> </p>
+    <p>My second line</p>
+    <p id="third">My third line</p>
+    <p class="yellow bold">My fourth line</p>
+    <ol>
+     <li>element selector</li>
+     <li>id selector</li>
+     <li class="yellow">class selector r</li>
+     <li>universal selector</li>
+    </ol>
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque praesentium ducimus at quisquam, atque sequi sed cumque officiis. Est hic fugit doloremque tempore voluptatem velit magni libero eum eveniet expedita.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur repudiandae quae dolore doloribus qui dolores odio omnis voluptatem adipisci? Cum, repellendus natus? Corrupti aliquam explicabo nisi deserunt labore nobis.</p>
+    </div>
+    <form action="">
+        <input type="text">
+        <input type="password" name="" 
+        id="">
+    </form>
+
+</body>
+</html>
